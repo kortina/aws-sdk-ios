@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                      :tag => s.version}
   s.requires_arc = true
   s.dependency 'AWSCore', '2.1.2'
-  s.dependency 'Bolts', '~> 1.1.0'
+  s.dependency 'Bolts', '~> 1.2.0'
   s.dependency 'Mantle', '~> 1.4'
 
   s.source_files = 'AWSAutoScaling/*.{h,m}'
